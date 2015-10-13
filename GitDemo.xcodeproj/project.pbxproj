@@ -15,6 +15,7 @@
 		AB5907A71BCCF7190094F638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5907A51BCCF7190094F638 /* LaunchScreen.storyboard */; };
 		AB5907B21BCCF7190094F638 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5907B11BCCF7190094F638 /* GitDemoTests.m */; };
 		AB5907BD1BCCF7190094F638 /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5907BC1BCCF7190094F638 /* GitDemoUITests.m */; };
+		AB5907CC1BCCF8C60094F638 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5907CB1BCCF8C60094F638 /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AB5907B81BCCF7190094F638 /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5907BC1BCCF7190094F638 /* GitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoUITests.m; sourceTree = "<group>"; };
 		AB5907BE1BCCF7190094F638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5907CA1BCCF8C60094F638 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		AB5907CB1BCCF8C60094F638 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				AB59079B1BCCF7190094F638 /* AppDelegate.m */,
 				AB59079D1BCCF7190094F638 /* ViewController.h */,
 				AB59079E1BCCF7190094F638 /* ViewController.m */,
+				AB5907CA1BCCF8C60094F638 /* FirstViewController.h */,
+				AB5907CB1BCCF8C60094F638 /* FirstViewController.m */,
 				AB5907A01BCCF7190094F638 /* Main.storyboard */,
 				AB5907A31BCCF7190094F638 /* Assets.xcassets */,
 				AB5907A51BCCF7190094F638 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				AB59079F1BCCF7190094F638 /* ViewController.m in Sources */,
 				AB59079C1BCCF7190094F638 /* AppDelegate.m in Sources */,
 				AB5907991BCCF7190094F638 /* main.m in Sources */,
+				AB5907CC1BCCF8C60094F638 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.GitDemo";
@@ -422,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.GitDemo";
