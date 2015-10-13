@@ -20,9 +20,15 @@
     int bb = 11;
     NSLog(@"%d%d",aa,bb);
     [self test];
+    
+    [self sayBayBay];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)sayBayBay{
+    NSLog(@"sayBayBay");
+}
 - (void)test{
     NSLog(@"this is test");
 }
