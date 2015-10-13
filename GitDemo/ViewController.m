@@ -16,9 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    int x = 0;
-    int y = 1;
-    NSLog(@"%d,%d",x,y);
+    int aa = 10;
+    int bb = 11;
+    NSLog(@"%d%d",aa,bb);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
