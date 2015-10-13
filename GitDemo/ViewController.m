@@ -19,7 +19,14 @@
     int aa = 10;
     int bb = 11;
     NSLog(@"%d%d",aa,bb);
+    
+    [self sayBayBay];
+    
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)sayBayBay{
+    NSLog(@"sayBayBay");
 }
 
 - (void)didReceiveMemoryWarning {
