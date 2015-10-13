@@ -19,7 +19,12 @@
     int aa = 10;
     int bb = 11;
     NSLog(@"%d%d",aa,bb);
+    [self test];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)test{
+    NSLog(@"this is test");
 }
 
 - (void)didReceiveMemoryWarning {
