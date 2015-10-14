@@ -20,6 +20,8 @@
     int bb = 11;
     NSLog(@"%d%d",aa,bb);
     [self test];
+    UIView *view = [[UIView alloc]init];
+    NSLog(@"%@",view);
     NSLog(@"aa");
     [self sayBayBay];
     
