@@ -20,6 +20,7 @@
     NSLog(@"bb");
     NSLog(@"gitzhihou");
     NSLog(@"dierge git");
+    NSLog(@".......");
 
     // Override point for customization after application launch.
     return YES;
