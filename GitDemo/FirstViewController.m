@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIView *view = [[UIView alloc]init];
+    NSLog(@"%@",view);
     // Do any additional setup after loading the view.
 }
 

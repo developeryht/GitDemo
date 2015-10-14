@@ -20,6 +20,8 @@
     int bb = 11;
     NSLog(@"%d%d",aa,bb);
     [self test];
+    UIView *view = [[UIView alloc]init];
+    NSLog(@"%@",view);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
