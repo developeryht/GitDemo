@@ -18,6 +18,10 @@
     [super viewDidLoad];
     UIView *view = [[UIView alloc]init];
     NSLog(@"%@",view);
+    
+    
+    NSLog(@"xianzai");
+
     // Do any additional setup after loading the view.
 }
 
